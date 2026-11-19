@@ -1,6 +1,10 @@
 # MultithreadAlarmSystem
 A multithreaded home alarm system developed in C using POSIX threads (pthreads) on Linux, with Arduino hardware integration. The system detects motion, manages alarm states, controls LEDs and a buzzer and records events in a log file. The project demonstrates concurrent programming, thread synchronization, and hardware-software interaction.
 
+## Struttura del progetto
+
+* **`codice.ino`** — Sketch principale per Arduino: gestisce l'inizializzazione dei pin (`setup`), il ciclo principale (`loop`) e l'interazione con l'hardware.
+* **`alarm.c`** — Modulo C contenente la logica di controllo e le funzioni di gestione dell'allarme.
 
 ## Introduzione
 
